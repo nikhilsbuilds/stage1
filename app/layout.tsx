@@ -16,6 +16,26 @@ export const metadata: Metadata = {
   },
   description:
     "Free credits, launch directories, startup communities, and playbooks for early-stage founders. Open source, no affiliates, community owned.",
+  openGraph: {
+    title: "Stage1 - Everything Founders Need to Launch",
+    description:
+      "Free credits, launch directories, startup communities, and playbooks for early-stage founders. Open source, no affiliates, community owned.",
+    images: [
+      {
+        url: "/stage1-og.png",
+        width: 1200,
+        height: 630,
+        alt: "Stage1 - Everything Founders Need to Launch",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Stage1 - Everything Founders Need to Launch",
+    description:
+      "Free credits, launch directories, startup communities, and playbooks for early-stage founders. Open source, no affiliates, community owned.",
+    images: ["/stage1-og.png"],
+  },
 }
 
 export const viewport: Viewport = {
