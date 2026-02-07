@@ -15,6 +15,9 @@ export function SiteFooter() {
             <Link href="/playbooks" className="transition-colors hover:text-white">
               Playbooks
             </Link>
+            <Link href="/contributors" className="transition-colors hover:text-white">
+              Contributors
+            </Link>
             <a href="https://github.com/nikhilsbuilds/stage1" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">
               Contribute
             </a>
