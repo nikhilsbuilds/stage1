@@ -760,4 +760,5 @@ export const launchDirectories: LaunchDirectory[] = [
   { name: "Buildspace Demo Day", url: "https://buildspace.so" },
   { name: "TrustMRR", url: "https://trustmrr.com" },
   { name: "BacklinkGPT", url: "https://backlinkgpt.com" },
+  { name: "Public Prompts", url: "https://www.publicprompts.art/" },
 ]
