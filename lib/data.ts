@@ -74,7 +74,7 @@ export const offers: Offer[] = [
       "Submit an idea or project through Creditable's short application. A pitch deck is optional.",
     applyUrl: "https://creditable.vc/apply",
     expiresAt: null,
-    verified: false,
+    verified: true,
     featured: false,
     upvotes: 0,
     tags: ["ai", "credits", "founder support", "pre-seed"],
