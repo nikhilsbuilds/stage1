@@ -56,6 +56,30 @@ export const stages: Stage[] = ["Idea", "MVP", "Early Traction", "Growth"]
 
 export const offers: Offer[] = [
   {
+    id: "creditable-builder-program",
+    name: "Creditable Builder Program",
+    provider: "Creditable",
+    logo: "Creditable",
+    tagline: "Funded AI plan and conditional startup credits",
+    description:
+      "Creditable offers a funded $200/month AI plan, potential $25k+ in provider-dependent startup credit packages, a free builder course, and a private network. The published offer proposes a 7% equity partnership under a separate agreement. Applying creates no commitment. A cash check size is not published, and credits are not guaranteed.",
+    value: "Funded AI plan plus conditional credits",
+    category: "AI & ML",
+    stages: ["Idea", "MVP", "Early Traction", "Growth"],
+    eligibility: [
+      "Applications are open to founders across stages, sectors, and countries.",
+      "Credit providers apply their own eligibility and availability rules.",
+    ],
+    howToApply:
+      "Submit an idea or project through Creditable's short application. A pitch deck is optional.",
+    applyUrl: "https://creditable.vc/apply",
+    expiresAt: null,
+    verified: false,
+    featured: false,
+    upvotes: 0,
+    tags: ["ai", "credits", "founder support", "pre-seed"],
+  },
+  {
     id: "vercel-ai-accelerator",
     name: "Vercel AI Accelerator",
     provider: "Vercel",
